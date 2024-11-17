@@ -20,7 +20,7 @@ setup(
     install_requires=[],
     entry_points={
         "console_scripts": [
-            "leetcode_problem_fetcher=leetcode_problem_fetcher.main.socket",  # Replace 'main' with your desired function name
+            "leetcode_problem_fetcher=leetcode_problem_fetcher.server.socket:script",  # Replace 'main' with your desired function name
         ]
     },
 )

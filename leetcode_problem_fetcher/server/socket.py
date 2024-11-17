@@ -27,8 +27,11 @@ async def main():
     await server.wait_closed()
 
 # Run the server
-if __name__ == "__main__":
+def script():
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
         logger.info("Server stopped by user")
+
+if __name__ == "__main__":
+    asyncio.run(main())
