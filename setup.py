@@ -8,7 +8,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Your Name",
     author_email="your.email@example.com",
-    url="https://github.com/TPatel82003/LeetCodeProblemFetcher",
+    url="https://github.com/TPatel82003/leetcode_problem_fetcher",
     license="MIT",
     packages=find_packages(),
     classifiers=[
