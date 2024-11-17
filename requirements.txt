@@ -1,0 +1,4 @@
+requests
+markdownify
+websockets
+asyncio
