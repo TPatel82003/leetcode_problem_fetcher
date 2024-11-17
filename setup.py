@@ -17,7 +17,7 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.6",
-    install_requires=[],
+    install_requires=[i.strip() for i in open("requirements.txt").readlines()],
     entry_points={
         "console_scripts": [
             "leetcode_problem_fetcher=leetcode_problem_fetcher.server.socket:script",  # Replace 'main' with your desired function name
